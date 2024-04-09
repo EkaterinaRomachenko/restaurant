@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 64px 96px;
 }
 
 .flex__center {
@@ -39,13 +39,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 32px;
 }
 
 .app__wrapper_img-reverse {
   justify-content: flex-start;
-  margin-right: 2rem;
+  margin-right: 32px;
 }
 
 .app__wrapper_img img {
