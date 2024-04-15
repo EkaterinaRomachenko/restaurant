@@ -1,0 +1,26 @@
+.app__awardCard {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 230px;
+  margin: 16px;
+}
+
+.app__awardCard img {
+  width: 79px;
+  height: 79px;
+}
+
+.app__awardCard-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 450px) {
+  .app__awardCard {
+    min-width: 100%;
+    margin: 16px 0 0;
+  }
+}
